@@ -14,7 +14,8 @@ pipeline {
         }
  stage('Deploy') {
             steps {
-                echo 'Deploying automatically'
+                echo 'Deploying Automatically!!'
+                echo 'Deployed'
             }
         }
     }
